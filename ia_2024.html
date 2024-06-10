@@ -1,88 +1,89 @@
 <!DOCTYPE html>
 <html lang="en" data-bs-theme="dark">
+   <head>
+      <meta charset="utf-8">
+      <meta content="width=device-width, initial-scale=1.0" name="viewport">
+      <title>rgrosa / Inteligência Artificial</title>
+      <meta content="" name="description">
+      <meta content="" name="keywords">
+      <link href="assets/neco.png" rel="icon">
+      <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+      <link href="assets/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+      <link href="assets/css/style.css" rel="stylesheet">
+   </head>
+   <body>
+      <script src="assets/bootstrap/js/bootstrap.bundle.min.js" defer></script>
+      <script src="assets/js/main.js" defer></script>
+      <script src="assets/js/file-upload.js" defer></script>
+      <header id="header" class="header fixed-top d-flex align-items-center">
+         <div class="d-flex align-items-center justify-content-between">
+            <a href="index.html" class="logo d-flex align-items-center">
+            <span class="d-none d-lg-block">Rgrosa</span>
+            </a>
+            <i class="bi bi-list toggle-sidebar-btn"></i>
+         </div>
+      </header>
+      <aside id="sidebar" class="sidebar">
+         <ul class="sidebar-nav" id="sidebar-nav">
+            <li class="nav-item">
+               <a class="nav-link " href="index.html">
+               <i class="bi bi-grid"></i>
+               <span>Home</span>
+               </a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link collapsed" href="ia_2024.html">
+               <i class="bi bi-upload"></i>
+               <span>Inteligência Artificial</span>
+               </a>
+            </li>
+         </ul>
+      </aside>
+      <main id="main" class="main">
+         <div class="pagetitle">
+            <h1>Inteligência Artificial</h1>
+            <nav>
+               <ol class="breadcrumb">
+                  <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                  <li class="breadcrumb-item active">Inteligência Artificial</li>
+               </ol>
+            </nav>
+         </div>
+         <section class="section">
+            <div class="row">
+               <div class="card">
+                  <div class="card-body">
+                     <h2 class="card-title">Representação de Conhecimento</h2>
+                     <h5>Texto Escrito por: <b>Felipe Ronzani, Luis Eduardo, Pedro Henrique Ferreira e Renan Rosa </b> (Unilasalle 2024) </h5><br>
 
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
-  <title>rgrosa / Inteligência Artificial</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
-
-  <link href="assets/neco.png" rel="icon">
-
-  <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/css/style.css" rel="stylesheet">
-</head>
-
-<body>
-  <script src="assets/bootstrap/js/bootstrap.bundle.min.js" defer></script>
-  <script src="assets/js/main.js" defer></script>
-  <script src="assets/js/file-upload.js" defer></script>
-
-  <header id="header" class="header fixed-top d-flex align-items-center">
-
-    <div class="d-flex align-items-center justify-content-between">
-      <a href="index.html" class="logo d-flex align-items-center">
-        <span class="d-none d-lg-block">Rgrosa</span>
-      </a>
-      <i class="bi bi-list toggle-sidebar-btn"></i>
-    </div>
-
-  </header>
-
-  <aside id="sidebar" class="sidebar">
-
-    <ul class="sidebar-nav" id="sidebar-nav">
-
-      <li class="nav-item">
-        <a class="nav-link " href="index.html">
-          <i class="bi bi-grid"></i>
-          <span>Home</span>
-        </a>
-      </li>
-
-      <li class="nav-item">
-        <a class="nav-link collapsed" href="ia_2024.html">
-          <i class="bi bi-upload"></i>
-          <span>Inteligência Artificial</span>
-        </a>
-      </li>
-
-    </ul>
-  </aside>
-
-  <main id="main" class="main">
-
-    <div class="pagetitle">
-      <h1>Inteligência Artificial</h1>
-      <nav>
-        <ol class="breadcrumb">
-          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-          <li class="breadcrumb-item active">Inteligência Artificial</li>
-        </ol>
-      </nav>
-    </div>
-    <section class="section">
-      <div class="row">
-
-
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Frames</h5>
-              #TODO: Adicionar o conteudo aqui :D
+                     <h4>Introdução: </h4>
+                     <p>A era da Inteligência Artificial é marcada pela incessante busca por replicar e aprimorar a capacidade humana de raciocínio e tomada de decisões. Nesse contexto, a representação do conhecimento desempenha um papel fundamental, permitindo que os sistemas de IA compreendam, processem e apliquem informações de maneira inteligente.
+                     <br>
+                     Este artigo explora diversas abordagens e técnicas dentro dos domínios dos sistemas de IA, focalizando especialmente em formalismos de representação do conhecimento e sistemas de raciocínio automatizado.
+                     </p>
+                     <h4>Sistemas de Inteligencia Artificial: </h4>
+                     <p> O termo sistema de inteligência artificial ou simplesmente IA se tornou recentemente um termo bastante genérico utilizado para aplicações que executam tarefas complexas que antes exigiam interação humana. O termo acabou por ser usado de forma intercambiável com seus subcampos, aprendizado de máquina e aprendizado profundo.
+                     <br>
+                     No entanto, é importante notar que há uma diferença, todo sistema de aprendizado de máquina/aprendizado profundo é IA, mas nem toda IA faz uso de aprendizado de máquina/aprendizado profundo, o qual é o uso de uma base de dados para aprendizagem e aprimoramento do sistema.
+                     <br>
+                     Há diversos outros tipos de sistemas de IA, alguns sistemas são generalistas e outros especialistas, como por exemplo, sistemas de processamento de linguagem natural e de visão computacional, que visam tarefas mais específicas, neste caso o ensino de linguagem e visão para computadores.
+                     </p>
+                     <h4>Ontologia: </h4>
+                     <p>Ontologias em inteligência artificial podem ser interpretadas como o conjunto de entidades com suas relações, restrições, axiomas e vocabulário, as ontologias desempenham um papel essencial, permitindo a integração semântica de informações ao estabelecer conexões entre diversos elementos de conhecimento.<br> Existem diferentes tipos de ontologias, para sistemas especialistas as ontologias utilizadas normalmente seriam as ontologias de aplicação, as quais procuram solucionar um problema específico de um domínio, como identificar doenças do coração, a partir de uma ontologia de domínio de cardiologia, por exemplo.</p>
+                     <h4>Frames: </h4>
+                     <p>A representação por frames possui relação próxima com a rede semântica, devido às suas similaridades, assim como a rede semântica a inferência se dá através da herança por atributos, as instâncias de um frame herdam todos os atributos definidos para aquele frame, assim como seus valores, métodos e restrições, é possível especificar exceções à herança através da representação explícita no slot correspondente da classe especializada, podemos expandir o mecanismo de raciocínio utilizando regras de produção e demons(um procedimento utilizando valores de slots).<br>
+                     Um frame possui nome e um conjunto de pares atributo e valor, o nome funciona como um nó da rede semântica, o atributo funciona como o nome dos arcos associados ao nó e o valor corresponde ao nó na outra extremidade do arco, os pares normalmente são chamados de slots, um atributo define o nome do slot e os valores correspondem ao seu conteúdo, frames são divididos em construtores, os quais definem as categorias do domínio e em instâncias, as quais representam os objetos do domínio.</p>
+                    </p>
+                  </div>
+               </div>
             </div>
-          </div>
-        </div>
-    </section>
-  </main>
-  <footer id="footer" class="footer">
-    <div class="copyright">
-    <span>Renan Rosa 2024 </span>.
-    </div>
-  </footer>
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-</body>
-
+         </section>
+      </main>
+      <footer id="footer" class="footer">
+         <div class="copyright">
+            <span><a href="https://github.com/rgrosa">Renan Rosa 2024 </a></span>
+         </div>
+      </footer>
+      <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+   </body>
 </html>
